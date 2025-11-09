@@ -318,6 +318,6 @@ cat("============================================\n\n")
 # ============================================
 
 # Save analysis results to CSV for further use
-write_csv(analysis, "week1_analysis_results.csv")
+write_csv(analysis, "week01/week1_analysis_results.csv")
 cat("Analysis results saved to: week1_analysis_results.csv\n")
 
