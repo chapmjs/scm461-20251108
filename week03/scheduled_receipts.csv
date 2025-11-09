@@ -1,0 +1,11 @@
+part_number,receipt_month,quantity,source
+P-101,1,100,Supplier-A
+P-101,3,100,Supplier-A
+P-102,2,50,Production
+P-102,4,50,Production
+P-103,1,80,Supplier-B
+P-103,5,80,Supplier-B
+P-104,2,150,Production
+P-104,4,150,Production
+P-105,3,100,Supplier-C
+P-105,5,100,Supplier-C
