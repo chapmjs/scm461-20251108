@@ -1,0 +1,36 @@
+EXPECTED RESULTS FOR VALIDATION
+
+Part P-101 (Widget Assembly):
+- Should show NO shortages in any month
+- Month 1 supply: 250 + 100 + 200 = 550 (demand 180) ✓
+- All months adequate
+
+Part P-102 (Gadget Component):
+- Should show SHORTAGES in months 3 and 5
+- Month 3: 
+  Beginning inventory: 10
+  Scheduled receipts: 0
+  Capacity: 150
+  Total supply: 160
+  Demand: 220
+  SHORTAGE: 60 units ⚠️
+  
+- Month 5:
+  Beginning inventory: 0
+  Scheduled receipts: 0
+  Capacity: 150
+  Total supply: 150
+  Demand: 205
+  SHORTAGE: 55 units ⚠️
+
+Part P-103 (Sprocket Module):
+- Should show SHORTAGE in month 6
+- Month 6:
+  Beginning inventory: ~5
+  Scheduled receipts: 0
+  Capacity: 180
+  Total supply: ~185
+  Demand: 250
+  SHORTAGE: ~65 units ⚠️
+
+Use these to verify your calculations are correct!
