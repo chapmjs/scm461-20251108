@@ -501,8 +501,8 @@ cat("============================================\n\n")
 # ============================================
 
 # Save simulation results
-write.csv(simulation_df, "week2_simulation_results.csv", row.names = FALSE)
-write.csv(line_spread, "week2_line_spread.csv", row.names = FALSE)
+write.csv(simulation_df, "week02/week2_simulation_results.csv", row.names = FALSE)
+write.csv(line_spread, "week02/week2_line_spread.csv", row.names = FALSE)
 
 # Save summary statistics
 summary_stats <- data.frame(
@@ -513,7 +513,7 @@ summary_stats <- data.frame(
             (lost_throughput/theoretical_distance)*100, spread_final,
             herbie_distance, leader_distance)
 )
-write.csv(summary_stats, "week2_summary_statistics.csv", row.names = FALSE)
+write.csv(summary_stats, "week02/week2_summary_statistics.csv", row.names = FALSE)
 
 cat("Results saved to CSV files for future reference.\n")
 cat("\nSimulation complete. All outputs generated successfully.\n")
