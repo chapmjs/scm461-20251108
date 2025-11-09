@@ -28,15 +28,15 @@ library(readr)      # For reading CSV files
 cat("Loading data files...\n")
 
 # Import financial data (revenue and costs)
-financial_data <- read_csv("financial_data.csv", 
+financial_data <- read_csv("week01/financial_data.csv", 
                           show_col_types = FALSE)
 
 # Import inventory data (RM, WIP, FG)
-inventory_data <- read_csv("inventory_levels.csv",
+inventory_data <- read_csv("week01/inventory_levels.csv",
                           show_col_types = FALSE)
 
 # Import production data (for context only)
-production_data <- read_csv("production_output.csv",
+production_data <- read_csv("week01/production_output.csv",
                            show_col_types = FALSE)
 
 cat("Data loaded successfully.\n\n")
