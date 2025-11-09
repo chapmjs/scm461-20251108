@@ -1,0 +1,6 @@
+part_number,on_hand_qty,location
+P-101,250,WH-A
+P-102,120,WH-A
+P-103,180,WH-B
+P-104,300,WH-A
+P-105,150,WH-B
