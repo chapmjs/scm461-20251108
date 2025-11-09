@@ -12,10 +12,10 @@ library(readr)      # For reading CSV files
 # ============================================
 
 # Load financial data
-financial_data <- read_csv("financial_data.csv")
+financial_data <- read_csv("week01/financial_data.csv")
 
 # Load inventory data
-inventory_data <- read_csv("inventory_levels.csv")
+inventory_data <- read_csv("week01/inventory_levels.csv")
 
 # Explore the data
 head(financial_data)
@@ -120,3 +120,4 @@ if(mean(analysis$throughput_change, na.rm = TRUE) < 0) {
 }
 
 cat("\n4. KEY QUESTION: Why is [insert main concern] happening? This needs further investigation.\n")
+
